@@ -1,0 +1,143 @@
+/***** BASE STYLES *****/
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	}
+
+			
+/***** GRID *****/
+.full-width {
+    width: 100%;
+    margin: 0 auto;
+	max-width: 1500px;
+}
+
+.half-width {
+	width: 50%;
+    max-width: 750px;
+    margin: 0 auto;
+	float: left;
+}
+
+.third-width{
+	width: 25%;
+    max-width: 500px;
+    margin: 0 auto;
+	float: left;
+}
+/***** Header *****/
+			
+header {
+    height: 350px;
+	background: LightGray;
+	/*background: url('../img/background-ASOM.png');*/
+    background-size: cover;
+	width:100%;
+}
+
+header h1 { 
+    font-family: 'Lora', serif;
+    color: #0086b3;
+	font-size: 50px;
+    /*padding: 50px 0;*/
+}
+nav {
+    float: right; 
+    padding: 75px 40px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+    padding-left: 80px; 
+}
+header h2 {
+    width: 1000px;
+    clear: both;
+    font-family: 'Lora', serif;
+    font-size: 40px;
+    line-height: 80px;
+    color: #862d86;
+    padding: 20px 0;
+}
+header h2 span {
+    color: #862d86;
+}
+
+/***** Tanning Section *****/
+#tanning {
+    height: 850px;
+	background: #E6E6FA;
+    background-size: cover;
+	width: 100%;
+}
+#tanning .full-width {
+    padding: 80px 0;
+}
+
+#tanning h2 {
+    font-family: 'Lora', serif;
+    font-size: 30px;
+}
+ 
+#tanning p {
+    font-size: 21px;
+    color: #a9a9a9;
+    line-height: 30px;
+    padding-right: 50px;
+}
+	
+/***** Contact Section *****/
+#contact {
+	
+	height: 600px;
+	background: LightGray;
+	background-size: cover;
+	}
+#contact .full-width {
+    width: 100%;
+	padding: 80px 0;
+}
+
+#contact-img {
+    border: 12px solid #ffffff;
+}
+#contact h2, #email-header, #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+#envelope {
+    padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+    font-family: 'Lora', serif;
+    font-size: 30px;
+}
+#email-header{
+    font-size: 22px;
+    font-weight: bold;
+    margin: -30px 0 5px 0;
+}
+#socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    margin: 40px 0 0 0;
+}
+#contact a {
+    text-decoration: none;
+    color: #862d86;
+    font-weight: bold;
+    font-size: 22px;
+}
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+	font-size: 25px;
+    padding-right: 48px;
